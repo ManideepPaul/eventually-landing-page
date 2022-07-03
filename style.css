@@ -6,10 +6,48 @@
     box-sizing: border-box;
     color: white;
     font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 26.4px;
 }
 
 .mainContainer {
     height: 100vh;
     width: 100vw;
     background: url("./assets/images/bg01.jpg") no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 40px;
+}
+
+.content {
+    flex-grow: 1;
+    padding-top: 50%;
+}
+
+.heading {
+    font-size: 52px;
+    line-height: 65px;
+}
+
+.email{
+    padding: 5px 10px;
+    border-style: solid;
+    border-color: #ffffff;
+    background-color: transparent;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.email::placeholder {
+    color: #ffffff;
+}
+
+.btn{
+    background-color: #1cb495;
+    padding: 5px 15px;
+    border-style: solid;
+    border-color: #1cb495;
+    border-radius: 5px;
+    margin-left: 10px;
 }
